@@ -1,7 +1,7 @@
 import java.text.SimpleDateFormat
-    @Library('frontenddeploy@master')
+    @Library('shared-library@master')
     
-    def trigger = new opsdeploy()
+    def trigger = new shared-library()
 node{
     properties([
         parameters([
