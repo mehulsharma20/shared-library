@@ -3,5 +3,6 @@ def buildNdeploy(){
         stage("build frontend project"){
             sh "./frontend.sh"
             }
-               }
+         }
+}
             
