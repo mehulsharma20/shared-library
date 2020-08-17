@@ -6,8 +6,6 @@ git pull origin master
 
 npm install
 
-npm test
-
 
 
 
