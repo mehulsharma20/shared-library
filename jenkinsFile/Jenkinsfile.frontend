@@ -1,0 +1,16 @@
+import java.text.SimpleDateFormat
+    @Library('frontenddeploy@master')
+    
+    def trigger = new opsdeploy()
+node{
+    properties([
+        parameters([
+            string(name: 'app_branch')
+          
+        ])
+    ]) 
+
+        if("${app_branch}"){
+            trigger.buildNdeploy()
+        }
+}
