@@ -1,7 +1,7 @@
 import java.text.SimpleDateFormat
     @Library('shared-library@master')
     
-    def trigger = new shared-library()
+    def trigger = new sharedlibrary()
 node{
     properties([
         parameters([
